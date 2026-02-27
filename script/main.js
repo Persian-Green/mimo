@@ -1,9 +1,7 @@
 function changeText() {
-  const alterText = "Goodbye World!"
-  const defaultText = document.getElementById("p1").innerHTML;
-  if (defaultText !== alterText) {
-    document.getElementById("p1").innerHTML = alterText;
-  } else {
-    document.getElementById("p1").innerHTML = defaultText;
-  }
+  const p1 = document.getElementById("p1");
+  p1.inert = p1.leng
+
+  const p = document.querySelector("p")
+  p.innerHTML = "selected";
 }
